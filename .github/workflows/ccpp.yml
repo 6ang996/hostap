@@ -16,4 +16,4 @@ jobs:
     - name: configure
       run: cd hostapd && cp defconfig .config
     - name: make
-      run: make
+      run: cd hostapd && make
